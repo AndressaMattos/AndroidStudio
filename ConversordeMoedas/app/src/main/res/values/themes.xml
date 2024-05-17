@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ConversorDeMoedas" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/azulclaro</item> -->
+
+    </style>
+    <style name="spTo" parent="Widget.AppCompat.Light.DropDownItem.Spinner">
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">@color/azulmeio</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="Theme.ConversorDeMoedas" parent="Base.Theme.ConversorDeMoedas" />
+</resources>
